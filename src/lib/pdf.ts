@@ -287,7 +287,7 @@ export async function buildPdf(r: Report, opt: PdfOptions = PDF_PHOTO): Promise<
 }
 
 export const pdfFileName = (r: Report) => {
-  const a = `${r.details.unit ? `Unit ${r.details.unit} ` : ""}${r.details.address}`.replace(/[^\w\- ]+/g, "").trim().replace(/\s+/g, " ").slice(0, 60);
+  const a = `${r.details.unit ? `Suite ${r.details.unit} ` : ""}${r.details.address}`.replace(/[^\w\- ]+/g, "").trim().replace(/\s+/g, " ").slice(0, 60);
   return `${typeLabel(r.type)} inspection - ${a || "unit"} - ${r.details.date}.pdf`;
 };
 

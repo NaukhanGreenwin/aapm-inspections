@@ -5,7 +5,8 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 REMOTE="${REMOTE:-$(git remote get-url origin)}"
-npx next build
+[ "${SKIP_BUILD:-}" = 1 ] || npx next build
+[ -f out/index.html ] || { echo "no out/ build"; exit 1; }
 touch out/.nojekyll
 # Commit on top of the existing gh-pages branch (no force push) so GitHub's own CNAME commits are kept.
 TMP="$(mktemp -d)"
