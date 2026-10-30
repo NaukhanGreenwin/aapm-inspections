@@ -1,6 +1,4 @@
-:HL["/aapm-inspections/_next/static/chunks/3ejnr20ei7yzx.css","style"]
-:HL["/aapm-inspections/_next/static/media/7ebf22b5a21034f8-s.p.3j3877k49yy0l.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/aapm-inspections/_next/static/media/caa3a2e1cccd8315-s.p.0wgildi0cnwt9.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
-:HL["/aapm-inspections/_next/static/media/e41d5df559864f9e-s.p.1g73gv09-xcb6.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/aapm-inspections/_next/static/chunks/1z__ei0xyt-e2.css","style"]
+:HC["/",""]
 1:[["children",{"s":"__PAGE__","h":160}]]
-0:{"b":"GJB31C-z6FR8oY7ck4DAb","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"K4EmFLG6W2PbMSblZoV9H","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
