@@ -809,3 +809,5 @@ html { scroll-padding-top: calc(var(--header-h) + 16px); }
 .wordmark-sub { font-family: var(--serif); font-style: italic; font-size: .9rem; color: var(--accent); margin-top: 3px; }
 @media (min-width: 640px) { .wordmark img { height: 38px !important; } .wordmark-name { font-size: 1.04rem; } }
 @media (max-width: 360px) { .wordmark-name { font-size: .86rem; } }
+/* phones, inside a flow (Steps button showing): mark only, so the name never runs under the buttons */
+@media (max-width: 559px) { .masthead:has(.masthead-steps) .wordmark-text { display: none; } }
